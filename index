@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Game | Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class =" container">
+        <div class="result_field">
+           <div class="result_images">
+            <span class="user_result"></span>
+            <image src="images/rock.png" alt="rock" id="rock">
+            </span> 
+            <span class="cpu_result"></span>
+            <image src="images/rock.png" alt="rock" id="rock">
+            </span>  
+            <span class="user_result"></span>
+            <image src="images/paper.png" alt="paper" id="paper">
+            </span> 
+            <span class="cpu_result"></span>
+            <image src="images/paper.png" alt="paper" id="paper">
+            </span>
+           </div> 
+           <span class="user_result"></span>
+           <image src="images/scissors.png" alt="scissors" id="scissors">
+           </span>
+           <span class="cpu_result"></span>
+           <image src="images/scissors.png" alt="scissors" id="scissors">
+           </span>
+        </div>    
+    </section>
+</body>
