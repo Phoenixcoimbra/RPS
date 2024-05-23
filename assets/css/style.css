@@ -27,6 +27,14 @@ body{
     display: flex;
     column-gap: 7rem;
 }
+
+.user_result img{
+    transform: rotate(90deg);
+}
+.cpu_result img{
+    transform: rotate(-90deg) rotateY(180deg);
+}
+
 .result {
     text-align: center;
     font-size: 2rem;
@@ -50,6 +58,10 @@ body{
 .option_images:hover{
     opacity: 1;
 }
+.option_images:active{
+    opacity: 1;
+}
+
 
 .option_image{
     display: flex;
