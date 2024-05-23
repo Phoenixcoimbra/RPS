@@ -45,3 +45,10 @@ body{
     color: #7d2ae8;
     margin-top: 1.5rem;
 }
+
+.option_image img {
+    width: 50px;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
