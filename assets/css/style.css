@@ -28,6 +28,10 @@ body{
     column-gap: 7rem;
 }
 
+.result_images img{
+    width: 50%;
+}
+
 .user_result img{
     transform: rotate(90deg);
 }
